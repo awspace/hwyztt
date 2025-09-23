@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body style="height: 100%;">
+
+
+<div id="app" style="height: 100%;"></div>
+<script type="text/javascript">
+  var webSdkScript = document.createElement('script');
+  webSdkScript.src = 'https://lf-cdn.coze.cn/obj/unpkg/flow-platform/builder-web-sdk/0.1.0/dist/umd/index.js';
+  document.head.appendChild(webSdkScript);
+  webSdkScript.onload = function () {
+    new CozeWebSDK.AppWebSDK({
+      "token": "sat_yg3MhHpPFfM9DvqWSCU7UHJuRSrguJNspcUjuuXlzwlRf115UfFk0sXPsVfVaC3f",
+      "appId": "7548740300831735871",
+      "container": "#app",
+      "userInfo": {
+        "id": "",
+        "url": "",
+        "nickname": "User"
+      }
+    });
+  }
+</script>
+
+
+</body>
+</html>
+
