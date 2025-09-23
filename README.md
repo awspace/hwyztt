@@ -1,0 +1,2 @@
+# hwyztt
+for huawei yztt
